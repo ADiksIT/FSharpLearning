@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpLearning", "FSharpLearning\FSharpLearning.fsproj", "{364DA3C5-F2FF-4656-A327-271560FEAEAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{364DA3C5-F2FF-4656-A327-271560FEAEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364DA3C5-F2FF-4656-A327-271560FEAEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364DA3C5-F2FF-4656-A327-271560FEAEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364DA3C5-F2FF-4656-A327-271560FEAEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
