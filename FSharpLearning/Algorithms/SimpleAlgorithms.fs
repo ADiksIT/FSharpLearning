@@ -16,3 +16,45 @@ let gcd x y =
         | a, b when a >= b -> euclid (a % b) b
         | _ -> euclid a (b % a)
     euclid x y
+    
+let variousTerms x =
+    let mutable n = x
+    let mutable i = 1
+    let mutable res = []
+    
+    while n > 2 * i do
+        n <- (n-i)
+        res <- res @ [i]
+        i <- i + 1
+    
+    res <- res @ [n]
+    
+    printfn "%A" res.Length
+    
+    List.iter (printfn "%A") res
+    ()
+//    i = 1
+//numbers = []
+//while n > 2*i:
+//    n -= i
+//    numbers.append(i)
+//    i += 1
+//
+//numbers.append(n)
+
+    n
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
